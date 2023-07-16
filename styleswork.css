@@ -1,0 +1,88 @@
+html {
+  font-family: "Heebo", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li,
+a {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header {
+  margin-left: 370px;
+}
+
+.box-works {
+  width: 800px;
+  margin: auto;
+}
+
+#years {
+  background: #142850;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 2px;
+}
+
+#type {
+  color: #8695a4;
+  margin-left: 10px;
+}
+
+hr {
+  margin: 20px;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.portraits {
+  display: flex;
+}
+
+.malayalam {
+  display: flex;
+}
+
+.components {
+  display: flex;
+}
+
+.container-dashboard,
+.container-portaits,
+.container-malayalam,
+.container-components {
+  margin-left: 20px;
+}
+
+footer {
+  font-size: 32px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    margin-left: -350px;
+  }
+}

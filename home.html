@@ -13,89 +13,123 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav>
-            <a href="./works.html">Works</a>
-            <a href="./blog.html">Blog</a>
-            <a href="#">Contact</a>
-        </nav>
-        <div class="profile">
-            <div class="profile-left">
-                <h1>Hi, I am John,<br>
-                    Creative Technologist</h1>
-                <h2>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h2>
+    <nav>
+        <ul>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="home.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="box-header">
+        <div class="header">
+            <h1>Hi, I am John, Creative Technologist</h1>
+            <br />
+            <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                sint. Velit officia consequat duis enim velit mollit. Exercitation
+                veniam consequat sunt nostrud amet.
+            </p>
+            <div class="download">
                 <button>Download Resume</button>
             </div>
-            <div class="profile-right">
-                <img src="./photos.home/profile.png" alt="profile">
-            </div>
         </div>
-        <div class="recentposts">
-            <div class="recent-box">
-                <span>
-                    <h1>Recent posts</h1>
-                </span>
-                <span>
-                    <h2>View all</h2>
-                </span>
-            </div>
-            <div class="post-box">
-                <div class="post-left">
-                    <h1>Making a design system from scratch</h1>
-                    <h2>12 Feb 2020 &nbsp;&nbsp; | &nbsp;&nbsp; Design, Pattern</h2>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-                <div class="post-right">
-                    <h1>Creating pixel perfect icons in Figma</h1>
-                    <h2>12 Feb 2020 &nbsp;&nbsp; | &nbsp;&nbsp; Figma, Icon Design</h2>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
+        <div class="Profile">
+            <img src="./photos.home/profile.png" alt="" />
         </div>
-        <div class="feature">
-            <h1>Featured works</h1>
-            <div class="feature-top">
-                <img src="./photos.home/feature-1.png" alt="feature-1">
-                <div class="feature-top-box">
-                    <h1>Designing Dashboards</h1>
-                    <span>2020</span>
-                    <span>Dashboard</span>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-            <hr>
-            <div class="feature-center">
-                <img src="./photos.home/feature-2.png" alt="feature-2">
-                <h1>Vibrant Portraits of 2020</h1>
-                <p class="year">2018</p>
-                <p class="text-work">Illustration</p>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-            <hr>
-            <div class="feature-bottom">
-                <img src="./photos.home/feature-3.png" alt="feature-3">
-                <h1>36 Days of Malayalam type</h1>
-                <p class="year">2018</p>
-                <p class="text-work">Typography</p>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-        </div>
-        <footer>
-            <div class="icons">
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
-            </div>
-            <p>Copyright ©2020 All rights reserved</p>
-        </footer>
     </div>
+
+    <div class="box-content">
+        <div class="recent">
+            <span style="font-size: 22px">Recent posts</span>
+            <span style="color: #00a8cc">View all</span>
+        </div>
+        <div class="container-content">
+            <div class="design">
+                <h3>Making a design system from scratch</h3>
+                <span>12 Feb 2020</span>
+                <span>|</span>
+                <span>Design, Pattern</span>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+
+            <div class="creating">
+                <h3>Creating pixel perfect icons in Figma</h3>
+                <span>12 Feb 2020</span>
+                <span>|</span>
+                <span>Figma, Icon Design</span>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-works">
+        <p style="font-size: 22px; margin-bottom: 15px;">Featured works</p>
+        <div class="dashboard">
+            <div class="img-dashboard">
+                <img src="./photos.home/feature-1.png" alt="" />
+            </div>
+            <div class="container-dashboard">
+                <p style="font-size: 30px">Designing Dashboards</p>
+                <span id="years">2020</span>
+                <span id="type">Dashboard</span>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div>
+        <hr />
+        <div class="portraits">
+            <div class="img-portraits">
+                <img src="./photos.home/feature-2.png" alt="" />
+            </div>
+            <div class="container-portaits">
+                <p style="font-size: 30px">Vibrant Portraits of 2020</p>
+                <span id="years">2018</span>
+                <span id="type">Illustration</span>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div>
+        <hr />
+        <div class="malayalam">
+            <div class="img-malayalam">
+                <img src="./photos.home/feature-3.png" alt="" />
+            </div>
+            <div class="container-malayalam">
+                <p style="font-size: 30px">36 Days of Malayalam type</p>
+                <span id="years">2018</span>
+                <span id="type">Typography</span>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <footer>
+        <div class="footer-icon">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Copyright ©2020 All rights reserved</p>
+    </footer>
 </body>
 
 </html>

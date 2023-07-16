@@ -1,86 +1,156 @@
+html {
+  font-family: "Heebo", sans-serif;
+}
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav li,
+a {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-body {
-    display: flex;
-    justify-content: center;
+.box-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.Profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+.header {
+  width: 480px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 44px;
+}
+.download button {
+  width: 200px;
+  background-color: #ff6464;
+  color: white;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.box-content {
+  background: #edf7fa;
+}
+.box-content p {
+  margin: 15px 0;
+}
+.recent {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+.container-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.container-content h3 {
+  font-size: 26px;
+}
+.container-content span {
+  font-size: 18px;
+}
+.design {
+  width: 400px;
+  height: 250px;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 10px 8px;
+  background: #ffffff;
+  margin: 0 20px;
+}
+.creating {
+  width: 400px;
+  height: 250px;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 10px 8px;
+  background: #ffffff;
+}
+.box-works {
+  width: 800px;
+  margin: auto;
+}
+#years {
+  background: #142850;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 2px;
+}
+
+#type {
+  color: #8695a4;
+  margin-left: 10px;
+}
+hr {
+  margin: 20px;
+}
+.dashboard {
+  display: flex;
+}
+.portraits {
+  display: flex;
+}
+.malayalam {
+  display: flex;
+}
+.container-dashboard,
+.container-portaits,
+.container-malayalam {
+  margin-left: 20px;
+}
+
+footer {
+  font-size: 32px;
+  text-align: center;
+}
+footer p {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  .box-header {
+    flex-wrap: wrap-reverse;
+  }
+  .container-content {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .Profile {
+    margin-left: -100px;
+  }
+  .box-works {
     flex-direction: column;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    padding-right: 100px;
-    gap: 50px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-}
-
-.profile {
-    display: flex;
-    padding: 100px 30px;
-    justify-content: space-around;
-}
-
-.profile-left {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    float: left;
-}
-
-.recentposts {
-    padding: 50px 80px;
-    background-color: #EDF7FA;
-}
-
-.post-box {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-.recent-box {
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.post-left {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 450px;
-    padding: 30px;
-}
-
-.post-right {
-    background-color: white;
-    width: 450px;
-    padding: 30px;
-}
-
-.feature-top {
-    display: flex;
-    flex-direction: row;
-}
-
-.feature-top-box {
-    display: flex;
-
+  }
+  .download {
+    text-align: center;
+  }
+  .box-works p:first-child {
+    margin-left: 15px;
+  }
 }

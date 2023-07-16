@@ -1,0 +1,62 @@
+html {
+  font-family: "Heebo", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li,
+a {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header {
+  /* text-align: center; */
+  margin-left: 435px;
+}
+
+.container {
+  width: 680px;
+  margin: auto;
+  padding: 20px;
+}
+
+.container h3 {
+  font-size: 30px;
+}
+
+.container p {
+  margin: 10px;
+}
+
+.container hr {
+  color: #e0e0e0;
+}
+
+footer {
+  font-size: 32px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    margin-left: -420px;
+  }
+}
